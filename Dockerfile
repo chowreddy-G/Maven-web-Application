@@ -1,3 +1,2 @@
 FROM tomcat:7-jdk8-corretto
-
-COPY target/mavem-web-application*.war /usr/local/tomcat/webapps/maven-web-application.war
+COPY /var/lib/jenkins/workspace/pipeline-scripted/target/maven-web-application*.war /usr/local/tomcat/webapps/maven-web-application.war
